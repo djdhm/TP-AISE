@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/djamel/tp/PROJET_AISE/lib/library.c
+stdio.h
+-
+stdint.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/mman.h
+-
+library.h
+/home/djamel/tp/PROJET_AISE/lib/library.h
+string.h
+-
+pthread.h
+-
+
+/home/djamel/tp/PROJET_AISE/lib/library.h
+
